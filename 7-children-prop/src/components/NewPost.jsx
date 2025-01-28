@@ -6,7 +6,7 @@ function NewPost(props) {
       <p>
         <label htmlFor="body">Text</label>
 
-        // prop name can be what we want
+        {/*prop name can be what we want*/}
         <textarea id="body" required rows={3} onChange={props.onBodyChange}/>
       </p>
       <p>
